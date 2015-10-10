@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.skynettv" name="[COLOR blue]  SKYNET-TV[/COLOR]" version="1.3" provider-name="Christian Deliz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SKYNETTV</summary>
+    <description lang="en">[COLOR red]ATTENCION | El Uso de Este Add-on sin Autorización Del Distribuidor Esta Prohibido.|  No Esta Permitido Modificar o Alterar Este Addon Por el Creador .[/COLOR]</description>
+    <disclaimer lang="es">[COLOR red]ATTENCION | El Uso de Este Add-on sin Autorización Del Distribuidor Esta Prohibido.| No Esta Permitido Modificar o Alterar Este Addon Por el Creador .[/COLOR]</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

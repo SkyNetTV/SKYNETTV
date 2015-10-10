@@ -1,0 +1,11 @@
+?
+<settings>
+  <category label="SkyNetTV">
+    <setting id="Updatecommonresolvers" label="Update Commonresolver from Genesis" type="bool" default="true" visible="false"/>
+	<setting type="action" label="Versión del Addon actualizado 7/09/2015 SkyNetTV" option="close" action="RunPlugin(plugin://plugin.video.KodiFlix/?mode=7)" />
+        <setting type="action" label="[B]https://www.facebook.com/skynetwirelesspr[/B]" option="close" action="RunPlugin(plugin://plugin.video.KodiFlix/?mode=7)" />
+        <setting id="ask_playlist_items" type="bool" label="Ask playlist items to choose from dialog" default="false" />
+        <setting id="add_playlist" type="bool" label="Add items with multiple links as play lists" default="false"/>
+    </category>
+
+</settings>
